@@ -18,8 +18,8 @@
   box-sizing: border-box;
   gap: 10px;
   padding: 0px 60px 60px;
-  grid-template-columns: repeat(5, auto) 200px;
-  grid-template-rows: repeat(6, auto);
+  grid-template-columns: repeat(4, 1fr) 2fr 200px;
+  grid-template-rows: repeat(6, 1fr);
 }
 
 .gallery__item {
